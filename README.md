@@ -1,0 +1,11 @@
+# P3-Project-Backbone.js
+
+My project involved using Backbone.js to create a single page web app that stored data about a group of glass. Ideally, it was supposed to have a home page with different categories of antique glass manufactured in the U.S. that then linked to gallery pages showing examples of pieces in that given category from my personal glass collection, but I was not able to figure out how to implement this. Instead, the site features a few images that change background color when hovered over, and when clicked on, lead to a change in the url based on the model instance's id number. 
+
+The resources I used were the book, "Developing Backbone.js Applications" by Addy Osmani, online tutorials at lynda.com, codeschool.com, and a Dev BootCamp Dev Talk from 2014. I also used a few websites: "Backbone, the Primer on Github," "Getting started with Backbone.js" (code.tutsplus.com), and the official documentation (backbonejs.org). 
+
+I chose to Backbone.js as a new technology to learn for this project for several reasons. It is a lightweight library vs. a framework used to create SPAs, one of the most lightweight among all the frameworks and libraries. I also chose it based on popularity and for the fact that it has a big developer community. It adds structure to Javascript code, also making it more manageable in the long-term, and one can just use the components and their pre-defined properties and methods, leaving lots of room for flexibility. When I compared it to using React, I was drawn to Backbone because it involved more than just the View portion of MVC. Backbone could be considered MV* with the routes file comparable to a controller. There are several other benefits to using this library, but I did not have time to touch on some of those added features or capabilities.
+
+Some challenges I ran into were probably using too many resources, not fully understanding the flow of what code goes in what file, how routes really work, and in what order things fire. Having only about 3 days, I did not become an expert in this Javascript library, but I know it can do so much more, as can be seen by the many example websites that used it to create their front end and UI. 
+
+Anyone can contribute to this project, as it obviously is not what I intended it to look like. Simply clone the repo and run the index.html file. 
