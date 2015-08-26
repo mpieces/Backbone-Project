@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Marisa's Pieces</title>
+    <link rel="stylesheet" href="css/globalStyles.css">
+</head>
+
+<body>
+
+    <div class="site">
+
+        <div class="logo">
+            <img src="images/logo.png" alt="Marisa's Pieces" />
+        </div>
+
+        <div id="allGlass"></div>
+
+
+    </div>
+<!-- id acts as a hook for template settings defined in view object. tells view how to structure model data. Type required but cannot be Javascript. Would break code. text/template is convention.  -->
+
+<!-- HTML structure for model data: -->
+ <!--  looks at properties from model instances (stuff inside snowcones) -->
+        <script id="glassElement" type="text/template">
+
+            <a href="#<%= link %>"><img src="<%= img %>" alt="<%= name %>" class="image" /></a>
+            <ul>
+                <li class="glassInfo"><strong>Name:</strong> <%= name %></li>
+                <li class="glassInfo"><strong>Maker:</strong> <%= maker %></li>
+                <li class="glassInfo"><strong>Pattern:</strong> <%= pattern %></li>
+                <li class="glassInfo"><strong>Color:</strong> <%= color %></li>
+            </ul>
+        </script>
+
+    <script src="js/libs/jquery.js"></script>
+    <script src="js/libs/underscore.js"></script>
+    <script src="js/libs/backbone.js"></script>
+
+    <script src="js/models/singleGlassModel.js"></script>
+    <script src="js/views/singleGlassView.js"></script>
+    <script src="js/views/allGlassView.js"></script>
+    <script src="js/collections/allGlass.js"></script>
+    <script src="js/routes/router.js"></script>
+    <script src="js/glassApp.js"></script>
+
+</body>
+</html>
